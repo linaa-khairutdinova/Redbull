@@ -1,0 +1,211 @@
+@media(max-width: 425px){
+    .container{
+        width: 95%;
+    }
+
+    .navbar-nav, ul, li {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-nav li {
+        padding: 10px 0px;
+    }
+
+    .header-container-slider>.bx-wrapper .bx-next {
+        right: 6px !important;
+    }
+
+    .header-container-slider>.bx-wrapper .bx-prev{
+        left: -6px !important;
+    }
+    .header-container-slider .bxslider h1 {
+        width: 65%;
+    }
+
+    .header-container-slider .bxslider h2 {
+        width: 65%;
+        font-size: x-large;
+    }
+
+    .header-container-slider .bxslider p {
+        width: 65%;
+        font-size: smaller;
+    }
+
+    .display-table-cell{
+        display: block;
+    }
+
+    .about-company-icon {
+        position: static;
+    }
+
+    .float-left {
+        float: none;
+    }
+
+    .float-right{
+        float: none;
+    }
+
+    .col {
+        padding: 20px 25px 20px 25px;
+    }
+
+    .padding {
+       padding: 0;
+    }
+
+    .exposition ul {
+       padding: 0px;
+    }
+
+    .exposition li {
+        padding: 0px 1px 9px 10px;
+    }
+
+    .exposition li {
+        padding: 0px 1px 9px 35px;
+        width: 90%;
+    }
+
+    .exposition-li::before {
+        left: -3px;
+    }
+
+    .bx-wrapper {
+        max-width: 320px;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 768px){
+
+    .container{
+        width: 80%;
+    }
+
+    .navbar-nav, ul, li {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-nav li {
+        padding: 10px 0px;
+    }
+
+    .display-table-cell{
+        display: block;
+    }
+
+    .about-company-icon {
+        position: static;
+    }
+
+    .col {
+        padding: 20px 25px 20px 25px;
+    }
+
+    .header-container-slider>.bx-wrapper .bx-next {
+        right: -42px !important;
+    }
+
+    .header-container-slider>.bx-wrapper .bx-prev {
+        left: -42px !important;
+    }
+
+    .header-container-slider .bxslider h1 {
+        width: 100%;
+        font-size:x-large;
+        letter-spacing: normal;
+    }
+
+    .header-container-slider .bxslider h2 {
+        width: 100%;
+        font-size: large;
+
+    }
+
+    .header-container-slider .bxslider p {
+        width: 100%;
+        font-size: smaller;
+    }
+
+    .float-left {
+        float: none;
+    }
+
+    .float-right{
+        float: none;
+    }
+
+    .padding {
+        padding: 0;
+    }
+
+    .exposition ul {
+        padding: 10px 15px;
+    }
+
+    .li-one {
+        margin-top: 63px !important;
+        width: 200px !important;
+    }
+
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .li-one{
+        margin-top: 63px !important;
+        width: 410px !important;
+    }
+
+    
+
+     .header-container-slider .bxslider h1 {
+        width: 100%;
+    }
+
+    .header-container-slider .bxslider h2 {
+        width: 100%;
+    }
+
+    .header-container-slider .bxslider p {
+        width: 100%;
+    }
+
+    .col {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .padding {
+        padding: 15px;
+    }
+
+    .header-container-slider>.bx-wrapper .bx-next {
+        right: -20px !important;
+    }
+
+    .header-container-slider>.bx-wrapper .bx-prev {
+        left: -38px !important;
+    }
+
+}
+
+/* @media(min-width: 1025px) and (max-width: 1440px){
+} */
+
+@media(min-width: 1441px){
+
+    .container {
+        width: 1000px;
+    }
+}
