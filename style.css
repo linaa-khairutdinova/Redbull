@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.clear-both-display-table{
+    clear: both;
+    display: table;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.display-table{
+    display: table;
+}
+
+.display-table-cell{
+    display: table-cell;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* header */
+.header{
+    padding: 0px 0px 20px;
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar{
+    padding: 45px 0px 20px;
+}
+
+.navbar-nav> ul{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav li{
+    position: relative;
+    padding: 16px 25px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav li>a{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+ul>.active::before{
+    content: "";
+    background-color:#fdbfff;
+    width: 40px;
+    height: 2px;
+    bottom: 11px;
+    position: absolute;
+}
+
+.background-slider{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
+.bx-wrapper {
+    margin: auto;
+}
+
+.header-container-slider>.bx-wrapper .bx-prev {
+    left: -70px !important;
+}
+
+.header-container-slider>.bx-wrapper .bx-next {
+    right: -70px !important;
+}
+
+.header-container-slider>.bx-wrapper{
+    border: none !important;
+    max-width: 930px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    -moz-box-shadow: 0 0 5px #00000000 ; 
+    box-shadow: 0 0 5px #00000000 !important;
+}
+
+.li-one{
+    margin-top: 63px !important;
+    width: 565px !important;
+}
+
+
+.header-container-slider .bxslider h1{
+    width: 50%;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -3px;
+    font-size: xxx-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-container-slider .bxslider h2{
+    width: 70%;
+    color: #fdbfff;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-container-slider .bxslider p{
+    width: 70%;
+    color: #fff;
+    font-size: large;
+    font-family: auto;
+
+  
+}
+
+/* .about-company */
+
+.about-company{
+    background: rgb(69,56,69);
+    background: linear-gradient(0deg, rgba(69,56,69,1) 6%, rgba(118,73,122,1) 42%);
+}
+
+.col{
+    padding: 45px 25px 40px 25px;
+}
+
+.about-company-col{
+    position: relative;
+}
+
+.about-company-icon{
+   display: inline-block;
+   position: absolute;
+   top: 50px;
+   left: -35px;
+}
+
+.about-company-info{
+    padding-right: 30px;
+}
+
+.fa-solid, .fas {
+    font-size: 32px;
+}
+
+.fa-brands, .fab {
+    font-size: 32px;
+}
+
+.about-company-info h3{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: xx-large;
+    letter-spacing: -2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-company-info p{
+    color: #fff;
+    line-height: 30px;
+    font-size: large;
+}
+
+.about-company-info div{
+    text-align: right;
+    width: 50%;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.about-company-info a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-company-info a:hover{
+    color: #fdbfff;
+    text-shadow: -1px 1px 6px rgba(255, 255, 255, 0.5);
+}
+
+/* второй слайдер */
+.padding {
+   padding: 50px;
+}
+
+.bxslider-two{
+    position: relative;
+    display: table;
+}
+
+.bx-wrapper {
+    border: none !important;
+    -moz-box-shadow: 0 0 0px #00000000 ; 
+    box-shadow: 0 0 0px #00000000 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2) !important;
+    -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2) !important;
+    box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2) !important;
+}
+
+.bxslider-two-triangle{
+    position: absolute;
+    right: 45px;
+    width: 20px;
+    bottom: -9px;
+    height: 20px;
+    background-color: #fff;
+    transform: rotate(47deg);
+    box-shadow: 2px 2px 2px 0px #00000029;
+}
+
+.slide {
+    position: relative;
+    margin: 10px 25px 35px 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(34, 60, 80, 0.2);
+}
+
+.slide-coments{
+   margin: -3px 0px 0px 33px;
+}
+
+
+.title-info{
+    text-transform: uppercase;
+    color: #000000bf;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.title-purple{
+    text-transform: uppercase;
+    color: #fdbfff;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.bxslider-two-info p{
+    line-height: 25px;
+    font-size: large;
+}
+
+.bxslider-two-img{
+    left: -12px;
+    top: 15px;
+    position: absolute;
+}
+
+/* Финиш второго слайдера */
+
+
+.exposition h2{
+    text-transform: uppercase;
+    color: #000000bf;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    letter-spacing: -2px;
+    font-weight: 500;
+}
+
+.exposition h4{
+    font-size: larger;
+}
+
+.exposition ul{
+    padding: 10px 30px;
+}
+
+.exposition li{
+    padding: 0px 1px 25px 30px;
+    position: relative;
+}
+
+.exposition-li::before{
+    content: url(image/post-img.png);
+    position: absolute;
+    left: -35px;
+}
+
+.exposition div{
+    text-align: right;
+}
+.exposition a{
+    text-transform: uppercase;
+    color: #000000bf;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 0px 50px;
+}
+
+.border-bottom{
+    border-bottom: 1px #0000001c solid;
+}
+
+li .padding{
+    padding: 25px 0px !important;
+}
+
+.container-slider-tree .bx-wrapper{
+    margin: 40px auto;
+}
+
+.container-slider-tree>.bx-wrapper{
+    -moz-box-shadow: 0 0 5px #00000000 ; 
+    box-shadow: 0 0 5px #00000000 !important;
+}
+
+.Resent-comments{
+    background-color: #ededed;
+}
+
+.Resent-comments h1{
+    color: #000000bf;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: xxx-large;
+}
+
+.Resent-comments h1>span{
+    color: #cacaca;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.Resent-comments p{
+    font-size: large;
+    line-height: 23px;
+}
+
+.Resent-comments h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: -2px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: #000000bf;
+}
+
+.footer{
+    background-image: url(image/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.designed p{
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.designed span{
+    font-weight: 600;
+}
+
+.padding-20px{
+    padding: 20px 0px;
+}
+
+
